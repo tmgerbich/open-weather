@@ -33,7 +33,7 @@ getWeatherBtn.addEventListener('click', function(event) {
 
     // updateApiCall with zipcode
     zipCode = document.getElementById('zipcode').value;
-    apiCall = `http://api.openweathermap.org/geo/1.0/zip?zip=${zipCode}&appid=${apiKey}`;
+    apiCall = `https://api.openweathermap.org/geo/1.0/zip?zip=${zipCode}&appid=${apiKey}`;
     
     // Make the API requests and get the weather data
     // API request to get lat/long from zipcode
